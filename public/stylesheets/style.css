@@ -3,10 +3,17 @@ body {
   color: yellow ;
   font-family: "Futura", "Gill Sans" ;
   font-size: 1.5em ;
+  padding-left: 76px ;
 }
 
 h1 {
+  font-size: 6em ;
   font-variant: small-caps ;
+  margin-bottom: 0em ;
+}
+
+.nav {
+  margin-bottom: 23px ;
 }
 
 a {
@@ -17,3 +24,24 @@ a:hover {
   color: black ;
   background-color: yellow ;
 }
+
+table {
+  padding-left: 23px ;
+  font-size: 1.2em ;
+}
+
+th {
+  border-style: dotted ;
+  border-width: 1px ;
+  border-color: yellow ;
+  font-variant: small-caps ;
+  text-align: left ;
+  padding: 10px ;
+}
+
+td {
+  border-style: dotted ;
+  border-width: 1px ;
+  border-color: yellow ;
+}
+

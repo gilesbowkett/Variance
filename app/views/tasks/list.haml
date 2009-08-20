@@ -1,1 +1,21 @@
-= link_to("new task", :controller => :tasks, :action => :new)
+.nav
+  = link_to("new task", :controller => :tasks, :action => :new)
+
+%table
+  %tr
+    %th Task
+    %th Expected
+    %th Actual
+    %td &nbsp;
+
+  - @tasks.each do |task|
+    %tr
+      %td
+        = task.description
+      %td
+        = task.expected
+      %td
+        = task.actual
+      %td
+        links here
+

@@ -1,4 +1,6 @@
 class TasksController < ApplicationController
-  def list ; end
+  def list
+    @tasks = Task.find(:all)
+  end
 end
 
