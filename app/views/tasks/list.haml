@@ -18,7 +18,7 @@
       %td
         = task.actual
       %td
-        = "edit" #link_to("edit", :controller => :tasks, :action => :edit)
+        = link_to("edit", edit_task_url(task.id))
       %td
-        = "delete" #link_to("delete", :controller => :tasks, :action => :delete)
+        = link_to("delete", task_url(task), :method => :delete)
 
