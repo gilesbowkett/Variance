@@ -1,0 +1,6 @@
+*.swp
+*.log
+*.pid
+schema.rb
+*.sqlite3
+
