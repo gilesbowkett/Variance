@@ -1,5 +1,8 @@
 body {
   background-color: black ;
+  background-image: url("/images/logo.gif") ;
+  background-repeat: no-repeat ;
+  background-position: top right ;
   color: yellow ;
   font-family: "Futura", "Gill Sans" ;
   font-size: 1.5em ;
