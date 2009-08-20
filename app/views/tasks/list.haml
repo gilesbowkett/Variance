@@ -6,7 +6,8 @@
     %th Task
     %th Expected
     %th Actual
-    %td &nbsp;
+    %td
+    %td
 
   - @tasks.each do |task|
     %tr
@@ -17,5 +18,7 @@
       %td
         = task.actual
       %td
-        links here
+        = "edit" #link_to("edit", :controller => :tasks, :action => :edit)
+      %td
+        = "delete" #link_to("delete", :controller => :tasks, :action => :delete)
 

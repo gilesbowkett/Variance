@@ -27,7 +27,7 @@ a:hover {
 
 table {
   padding-left: 23px ;
-  font-size: 1.2em ;
+  font-size: 1.1em ;
 }
 
 th {
@@ -40,6 +40,7 @@ th {
 }
 
 td {
+  padding: 10px ;
   border-style: dotted ;
   border-width: 1px ;
   border-color: yellow ;
