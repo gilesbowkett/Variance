@@ -19,6 +19,12 @@ h1 {
   margin-bottom: 23px ;
 }
 
+.task_link {
+  font-size: 0.8em ;
+  font-variant: small-caps ;
+  font-style: italic ;
+}
+
 a {
   background-color: #080818 ;
   color: yellow ;
